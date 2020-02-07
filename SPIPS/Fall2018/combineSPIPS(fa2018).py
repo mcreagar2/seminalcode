@@ -2,23 +2,23 @@ import os
 import pandas
 
 class putTogether: 
-    def __init__(self, path_to_clean): 
+    def __init__(self, path_to_clean, path_to_columnnames): 
         self.path_to_clean = path_to_clean
+        self.path_to_columnNames = path_to_columnnames
 
     def readinFiles(self): 
         dataframe_hold = []
         for files in os.listdir(self.path_to_clean): 
             school_name = files.split("_")[0]
-            if school_name != "OhioState": 
-                school_dict = {
-                    'school_name' : school_name, 
-                    'dataframe' : pandas.read_excel(os.path.join(self.path_to_clean, files))}
-                dataframe_hold.append(school_dict)
+            school_dict = {
+                'school_name' : school_name, 
+                'dataframe' : pandas.read_excel(os.path.join(self.path_to_clean, files))}
+            dataframe_hold.append(school_dict)
         self.smashTogether(dataframe_hold)
 
     def smashTogether(self, dataframe_hold): 
         # get column names 
-        with open(r"C:\Users\mting\Desktop\Work\seminal\code\columnnames.txt") as fp: 
+        with open(self.path_to_columnNames) as fp: 
             column_names = [column[:-1] for column in fp]
         # edit or insert missing columns 
         bad_column_names = ["PIPS - I constructively criticize other studentâ€™s ideas during class", 
@@ -47,9 +47,6 @@ class putTogether:
                     ###########################################
                     elif dataframe['school_name'] == "Maryland" and column_name == "Climate - Intellectually boring:Intellectually engaging": 
                         (dataframe['dataframe']).rename(columns = {"Climate - Intellectually engaging" : column_name}, inplace = True)
-                    ###########################################
-                    elif dataframe['school_name'] == "Maryland" and column_name == "Climate - Academically easy:Academically rigorous": 
-                        (dataframe['dataframe']).rename(columns = {"Climate - Academically Rigorous" : column_name}, inplace = True)
                     ###########################################
                     elif dataframe['school_name'] == "Maryland" and column_name == "Climate - Academically easy:Academically rigorous": 
                         (dataframe['dataframe']).rename(columns = {"Climate - Academically Rigorous" : column_name}, inplace = True)
@@ -118,6 +115,8 @@ class putTogether:
 
 
 
-path_to_clean = r"C:\Users\mting\Desktop\Work\seminal\data\spips\fall2018\clean" 
-putting_it_together = putTogether(path_to_clean)
+path_to_clean = r"C:\Users\mting\Desktop\Work\Seminal\data\spips\fall2018\clean" 
+path_to_columnNames = r"C:\Users\mting\Desktop\Work\Seminal\seminalcode\columnnames.txt"
+
+putting_it_together = putTogether(path_to_clean, path_to_columnNames)
 putting_it_together.readinFiles()

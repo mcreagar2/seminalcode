@@ -7,6 +7,8 @@ EnrolledCourse - Course name and number
 EnrolledCourse - Instructor
 EnrolledCourse - Scheduled time
 EnrolledCourse - Recitation/Lab Section
+CoEnroll
+SuppInst
 OpenHelpful
 OpenUnhelpful
 MissingClass - Regular class meetings
@@ -23,6 +25,10 @@ SI TimeSpend - Working on problems individually
 SI TimeSpend - Working on problems in small groups
 SI TimeSpend - Participating in (contributing and/or listening to) whole-class discussions
 SI TimeSpend - Listening to the instructor lecture or solve problems
+CoEnrollTimeSpend - Working on problems individually
+CoEnrollTimeSpend - Working on problems in small groups
+CoEnrollTimeSpend - Participating in (contributing and/or listening to) whole-class discussions
+CoEnrollTimeSpend - Listening to the instructor lecture or solve problems
 OverallExp - The test questions focus on important facts and definitions from the course
 OverallExp - The test questions require me to apply course concepts to unfamiliar situations
 OverallExp - I use technology or online resources in relation to this course
