@@ -1,12 +1,30 @@
 Start Date
 End Date
+Response Type
+IP Address
 Progress
 Duration (in seconds)
+Finished
+Recorded Date
+Response ID
+Recipient Last Name
+Recipient First Name
+Recipient Email
+External Data Reference
+Location Latitude
+Location Longitude
+User Language
 StudentID
 EnrolledCourse - Course name and number
 EnrolledCourse - Instructor
 EnrolledCourse - Scheduled time
 EnrolledCourse - Recitation/Lab Section
+Does your course meet on Fridays for a discussion lab?
+You are voluntarily making a decision whether or not to participate in this research study. Your aggrement to participate is indicated by checking one of the boxes below and typing your name. You should print a copy of this agreement for your records.
+ConsentAll
+Please type your name here to document your signature for online consent (per Nebraska Administrative Code at Title 437, Digital Signatures Act and Nebraska Revised Statute 86-611). Note this online survey is set up to store your consent and signature (name) in one database, and to store the following answers to your survey questions in a separate database.
+ConsentPart
+Over18
 CoEnroll
 SuppInst
 OpenHelpful
@@ -92,13 +110,17 @@ PIPS_Helpful - The instructor knows my name
 PIPS_Helpful - Class is structured to encourage peer-to-peer support among students (e.g., ask peer before you ask instructor, having group roles, developing a group solution to share)
 PIPS_Helpful - I receive feedback from my instructor on homework, exams, quizzes, etc.
 PIPS_Helpful - My instructor uses strategies to encourage participation from a wide range of students
+HelpfulElements - Online homework
+HelpfulElements - Written homework
+HelpfulElements - Exams
+HelpfulElements - Worksheets or handouts in class
 PIPS_Lab - I listen as the instructor guides me through major topics
 PIPS_Lab - The class activities connect course content to my life and future work
 PIPS_Lab - I receive immediate feedback on my work during class (e.g., student response systems such as clickers or voting systems; short quizzes)
 PIPS_Lab - I am asked to respond to questions during class time
 PIPS_Lab - In my class a variety of means (models, drawings, graphs, symbols, simulations, tables, etc.) are used to represent course topics and/or solve problems
 PIPS_Lab - I talk with other students about course topics during class
-PIPS_Lab - I constructively criticize other students ideas during class
+PIPS_Lab - I constructively criticize other student’s ideas during class
 PIPS_Lab - I discuss the difficulties I have with math with other students during class
 PIPS_Lab - I work on problems individually during class time
 PIPS_Lab - I work with other students in small groups during class
@@ -129,6 +151,7 @@ Included_Lab - How much praise does your work receive?
 Climate - Excluding and Hostile:Including and Friendly
 Climate - Intellectually boring:Intellectually engaging
 Climate - Academically easy:Academically rigorous
+GrowthMindSet
 Attitude - Beginning of course - I am interested in mathematics
 Attitude - Beginning of course - I enjoy doing mathematics
 Attitude - Beginning of course - I am confident in my mathematical abilities
@@ -149,7 +172,7 @@ Please indicate your level of agreement for the following statements from the be
 Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - In math, it is important for me to make sense out of mathematical approaches before I can use them correctly.
 Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - When a math problem arises that I can't immediately solve, I stick with it until I have made progress toward a solution.
 Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I enjoy figuring out math problems with other people.
-Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other peoples mathematical thinking, even if their thinking is not correct.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other people’s mathematical thinking, even if their thinking is not correct.
 Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I cannot learn mathematics if the teacher does not explain things well in class.
 Please indicate your level of agreement for the following statements from the beginning of the co... - Now - When a question is left unanswered in math class, I continue to think about it afterward.
 Please indicate your level of agreement for the following statements from the beginning of the co... - Now - Nearly everyone is capable of understanding mathematics if they work at it.
@@ -159,6 +182,15 @@ Please indicate your level of agreement for the following statements from the be
 Please indicate your level of agreement for the following statements from the beginning of the co... - Now - In math, it is important for me to make sense out of mathematical approaches before I can use them correctly.
 Please indicate your level of agreement for the following statements from the beginning of the co... - Now - When a math problem arises that I can't immediately solve, I stick with it until I have made progress toward a solution.
 Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I enjoy figuring out math problems with other people.
+Are you aware that Fundamentals of Engineering (Eng 101) is different from Traditional precalculus (Math 113/114 or Math 141)?
+Based on your knowledge, how is Fundamentals of Engineering (Eng 101) different from Traditional precalculus (Math 113/114 or Math 141)?
+What motivated you to enrolled in Fundamentals of Engineering (Eng 101) instead of a different course in the precalculus sequence?
+What programs or clubs (if any) are you aware of designed to support diversity, equity, or inclusion in Science Technology Engineering and Mathematics (STEM) at [Field-Site] ?
+Did you participate in any of these programs?
+Please explain your answer above.
+To what extent do you agree that the diversity of students in math classes improves the experiences and interactions within the course?
+In your opinion, in what ways does the diversity of students improve the experiences and interactions within the course?
+In your opinion, why does the diversity of students in the course not improve the experiences and interactions within the course?
 Gender - Selected Choice - Man
 Gender - Selected Choice - Gender fluid or Gender diverse
 Gender - Selected Choice - Transgender
@@ -200,6 +232,7 @@ SpecialPop - Prefer not to disclose
 FAFSA
 PellEligible
 WorkHours
+Approximately how many hours per week over the term did you spend working on math outside of class?
 Age
 YearsSite
 ClassRank - Selected Choice

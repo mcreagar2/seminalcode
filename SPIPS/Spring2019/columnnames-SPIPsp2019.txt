@@ -1,0 +1,285 @@
+Start Date
+End Date
+ResponseSet
+Response Type
+IP Address
+Progress
+Status
+Duration (in seconds)
+Finished
+Recorded Date
+Response ID
+Name
+Recipient Last Name
+Recipient First Name
+Recitation
+Recipient Email
+External Data Reference
+CourseLevel
+Welcome
+Location Latitude
+Location Longitude
+User Language
+StudentID
+EnrolledCourse - Course name and number
+EnrolledCourse - Instructor
+EnrolledCourse - Scheduled time
+Do you also attend a recitation/lab section for this class?
+EnrolledCourse - Recitation/Lab Section
+"You are
+voluntarily making a decision whether or not to participate in this research study.  Your agreement to participate is indicated by checking
+one of the boxes below and typing your name. You should print a
+copy of this agreement for your records."
+Please read the following material that explains this survey and research study. The Mathematics...
+Does your course meet on Fridays for a discussion lab?
+ConsentAll
+ConsentPart
+Over18
+CoEnroll
+SuppInst
+OpenHelpful
+OpenUnhelpful
+MissingClass - Regular class meetings
+MissingClass - Recitation/lab section
+ClassTimeSpend - Working on problems individually
+ClassTimeSpend - Working on problems in small groups
+ClassTimeSpend - Participating in (contributing and/or listening to) whole-class discussions
+ClassTimeSpend - Listening to the instructor lecture or solve problems
+LabTimeSpend - Working on problems individually
+LabTimeSpend - Working on problems in small groups
+LabTimeSpend - Participating in (contributing and/or listening to) whole-class discussions
+LabTimeSpend - Listening to the instructor lecture or solve problems
+SI TimeSpend - Working on problems individually
+SI TimeSpend - Working on problems in small groups
+SI TimeSpend - Participating in (contributing and/or listening to) whole-class discussions
+SI TimeSpend - Listening to the instructor lecture or solve problems
+CoEnrollTimeSpend - Working on problems individually
+CoEnrollTimeSpend - Working on problems in small groups
+CoEnrollTimeSpend - Participating in (contributing and/or listening to) whole-class discussions
+CoEnrollTimeSpend - Listening to the instructor lecture or solve problems
+OverallExp - The test questions focus on important facts and definitions from the course
+OverallExp - The test questions require me to apply course concepts to unfamiliar situations
+OverallExp - I use technology or online resources in relation to this course
+OverallExp - I make connections between related ideas or concepts when completing assignments
+OverallExp - I receive feedback on my assignments without being assigned a formal grade
+OverallExp - I see my instructor(s) outside of class for help
+OverallExp - I work with peers outside of class on math problems
+OverallExp - I attend tutoring sessions or seek help outside of class time
+TechUse - Selected Choice - Graphing calculator
+TechUse - Selected Choice - Clickers or other polling devices
+TechUse - Selected Choice - Computer algebra software (e.g., Maple, Matlab, Mathematica)
+TechUse - Selected Choice - Online search engines (e.g., Google)
+TechUse - Selected Choice - Online textbooks
+TechUse - Selected Choice - Online tutorials (e.g., Khan Academy, YouTube videos)
+TechUse - Selected Choice - Online computational or graphing tools (e.g., WolframAlpha, Geogebra, Desmos)
+TechUse - Selected Choice - Online homework (e.g., WebAssign, MyMathLab, Webwork)
+TechUse - Selected Choice - Online forums (e.g., Chegg, StackExchange, Slader)
+TechUse - Selected Choice - Learning management systems (e.g., Blackboard, Canvas, Piazza)
+TechUse - Selected Choice
+TechUse - Selected Choice - Other (please specify):
+TechUse - Other (please specify): - Text
+TutoringSource - Selected Choice
+TutoringSource - Selected Choice - Tutoring center at ${e://Field/Site} (please identify the center):
+TutoringSource - Selected Choice - Office hours
+TutoringSource - Selected Choice - Friend(s)
+TutoringSource - Selected Choice - Private tutor
+TutoringSource - Selected Choice - Extra course sessions (e.g., supplemental instruction, extra lab)
+TutoringSource - Selected Choice - Review sessions
+TutoringSource - Selected Choice - Other (please explain)
+TutoringSource - Tutoring center at [Field-Site] (please identify the center): - Text
+TutoringSource - Other (please explain) - Text
+PIPS - I listen as the instructor guides me through major topics
+PIPS - The class activities connect course content to my life and future work
+PIPS - I receive immediate feedback on my work during class (e.g., student response systems such as clickers or voting systems; short quizzes)
+PIPS - I am asked to respond to questions during class time
+PIPS - In my class a variety of means (models, drawings, graphs, symbols, simulations, tables, etc.) are used to represent course topics and/or solve problems
+PIPS - I talk with other students about course topics during class
+PIPS - I constructively criticize other student’s ideas during class
+PIPS - I discuss the difficulties I have with math with other students during class
+PIPS - I work on problems individually during class time
+PIPS - I work with other students in small groups during class
+PIPS - Multiple approaches to solving a problem are discussed in class
+PIPS - I have enough time during class to reflect about the processes I use to solve problems
+PIPS - A wide range of students respond to the instructor's questions in class
+PIPS - The instructor knows my name
+PIPS - Class is structured to encourage peer-to-peer support among students (e.g., ask peer before you ask instructor, having group roles, developing a group solution to share)
+PIPS - There is a sense of community among the students in my class
+PIPS - The instructor adjusts teaching based upon what the class understands and does not understand
+PIPS - The instructor explains concepts in this class in a variety of ways
+PIPS - I receive feedback from my instructor on homework, exams, quizzes, etc.
+PIPS - I share my ideas (or my group's ideas) during whole class discussions
+PIPS - A wide range of students participate in class
+PIPS - My instructor uses strategies to encourage participation from a wide range of students
+PIPS_Helpful - I listen as the instructor guides me through major topics
+PIPS_Helpful - The class activities connect course content to my life and future work
+PIPS_Helpful - I receive immediate feedback on my work during class (e.g., student response systems such as clickers or voting systems; short quizzes)
+PIPS_Helpful - I am asked to respond to questions during class time
+PIPS_Helpful - I talk with other students about course topics during class
+PIPS_Helpful - I constructively criticize other student’s ideas during class
+PIPS_Helpful - I work on problems individually during class time
+PIPS_Helpful - I work with other students in small groups during class
+PIPS_Helpful - The instructor knows my name
+PIPS_Helpful - Class is structured to encourage peer-to-peer support among students (e.g., ask peer before you ask instructor, having group roles, developing a group solution to share)
+PIPS_Helpful - I receive feedback from my instructor on homework, exams, quizzes, etc.
+PIPS_Helpful - My instructor uses strategies to encourage participation from a wide range of students
+PIPS_Lab - I listen as the instructor guides me through major topics
+PIPS_Lab - The class activities connect course content to my life and future work
+PIPS_Lab - I receive immediate feedback on my work during class (e.g., student response systems such as clickers or voting systems; short quizzes)
+PIPS_Lab - I am asked to respond to questions during class time
+PIPS_Lab - In my class a variety of means (models, drawings, graphs, symbols, simulations, tables, etc.) are used to represent course topics and/or solve problems
+PIPS_Lab - I talk with other students about course topics during class
+PIPS_Lab - I constructively criticize other student’s ideas during class
+PIPS_Lab - I discuss the difficulties I have with math with other students during class
+PIPS_Lab - I work on problems individually during class time
+PIPS_Lab - I work with other students in small groups during class
+PIPS_Lab - Multiple approaches to solving a problem are discussed in class
+PIPS_Lab - I have enough time during class to reflect about the processes I use to solve problems
+PIPS_Lab - A wide range of students respond to the instructor's questions in class
+PIPS_Lab - The instructor knows my name
+PIPS_Lab - Class is structured to encourage peer-to-peer support among students (e.g., ask peer before you ask instructor, having group roles, developing a group solution to share)
+PIPS_Lab - There is a sense of community among the students in my class
+PIPS_Lab - The instructor adjusts teaching based upon what the class understands and does not understand
+PIPS_Lab - The instructor explains concepts in this class in a variety of ways
+PIPS_Lab - I receive feedback from my instructor on homework, exams, quizzes, etc.
+PIPS_Lab - I share my ideas (or my group's ideas) during whole class discussions
+PIPS_Lab - A wide range of students participate in class
+PIPS_Lab - My instructor uses strategies to encourage participation from a wide range of students
+Included_Class - How much opportunity do you get to answer questions in class?
+Included_Class - How much attention does the instructor give to your questions?
+Included_Class - How much help do you get from the instructor?
+Included_Class - How much encouragement do you receive from the instructor?
+Included_Class - How much opportunity do you get to contribute to class discussions?
+Included_Class - How much praise does your work receive?
+What specific teaching strategies does your instructor use to promote equitable and inclusive student engagement?
+Included_Lab - How much opportunity do you get to answer questions in class?
+Included_Lab - How much attention does the instructor give to your questions?
+Included_Lab - How much help do you get from the instructor?
+Included_Lab - How much encouragement do you receive from the instructor?
+Included_Lab - How much opportunity do you get to contribute to class discussions?
+Included_Lab - How much praise does your work receive?
+What specific teaching strategies does your instructor use to promote equitable and inclusive student engagement?
+Climate - Excluding and Hostile:Including and Friendly
+Climate - Intellectually boring:Intellectually engaging
+Climate - Academically easy:Academically rigorous
+(Optional) Why did you select the answers you did for describing the overall climate within your...
+Attitude - Beginning of course - I am interested in mathematics
+Attitude - Beginning of course - I enjoy doing mathematics
+Attitude - Beginning of course - I am confident in my mathematical abilities
+Attitude - Beginning of course - I am able to learn mathematics
+Attitude - Beginning of course - I feel anxious when working with others on mathematics during class
+Attitude - Now - I am interested in mathematics
+Attitude - Now - I enjoy doing mathematics
+Attitude - Now - I am confident in my mathematical abilities
+Attitude - Now - I am able to learn mathematics
+Attitude - Now - I feel anxious when working with others on mathematics during class
+Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I can learn from hearing other people’s mathematical thinking, even if their thinking is not correct.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I cannot learn mathematics if the teacher does not explain things well in class.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - When a question is left unanswered in math class, I continue to think about it afterward.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - Nearly everyone is capable of understanding mathematics if they work at it.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - To understand math I discuss it with other students.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I do not spend more than five minutes on a math problem before giving up or seeking help from someone else.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - Understanding math basically means being able to communicate your reasoning with others.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - In math, it is important for me to make sense out of mathematical approaches before I can use them correctly.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - When a math problem arises that I can't immediately solve, I stick with it until I have made progress toward a solution.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I enjoy figuring out math problems with other people.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other people’s mathematical thinking, even if their thinking is not correct.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I cannot learn mathematics if the teacher does not explain things well in class.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Now - When a question is left unanswered in math class, I continue to think about it afterward.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Now - Nearly everyone is capable of understanding mathematics if they work at it.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Now - To understand math I discuss it with other students.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I do not spend more than five minutes on a math problem before giving up or seeking help from someone else.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Now - Understanding math basically means being able to communicate your reasoning with others.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Now - In math, it is important for me to make sense out of mathematical approaches before I can use them correctly.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Now - When a math problem arises that I can't immediately solve, I stick with it until I have made progress toward a solution.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I enjoy figuring out math problems with other people.
+Where you enrolled in a math course last term?
+How (if at all) has your experience in this course differed from last term?
+DemoIntro
+Gender - Selected Choice
+Gender - Selected Choice - Man
+Gender - Selected Choice - Gender fluid or Gender diverse
+Gender - Selected Choice - Transgender
+Gender - Selected Choice - Woman
+Gender - Selected Choice - Not listed (please specify):
+Gender - Selected Choice - Prefer not to disclose
+Gender - Not listed (please specify): - Text
+EthnoRacial - Selected Choice
+EthnoRacial - Selected Choice - Alaskan Native or Native American
+EthnoRacial - Selected Choice - Black or African American
+EthnoRacial - Selected Choice - Central Asian
+EthnoRacial - Selected Choice - East Asian
+EthnoRacial - Selected Choice - Hispanic or Latinx
+EthnoRacial - Selected Choice - Middle Eastern or North African
+EthnoRacial - Selected Choice - Native Hawaiian or Pacific Islander
+EthnoRacial - Selected Choice - Southeast Asian
+EthnoRacial - Selected Choice - South Asian
+EthnoRacial - Selected Choice - White
+EthnoRacial - Selected Choice - Not listed (please specify):
+EthnoRacial - Selected Choice - Prefer not to disclose
+EthnoRacial - Not listed (please specify): - Text
+SexualOrientation - Selected Choice
+SexualOrientation - Selected Choice - Asexual
+SexualOrientation - Selected Choice - Bisexual
+SexualOrientation - Selected Choice - Gay
+SexualOrientation - Selected Choice - Lesbian
+SexualOrientation - Selected Choice - Queer
+SexualOrientation - Selected Choice - Straight (Heterosexual)
+SexualOrientation - Selected Choice - Not listed (please specify):
+SexualOrientation - Selected Choice - Prefer not to disclose
+SexualOrientation - Not listed (please specify): - Text
+SpecialPop
+SpecialPop - International student
+SpecialPop - First-generation college student (i.e., neither parent nor guardian completed a Bachelor’s degree)
+SpecialPop - Commuter student
+SpecialPop - Transfer student
+SpecialPop - Student with a disability
+SpecialPop - Student athlete
+SpecialPop - Current or former English language learner (i.e., English was not the primary language spoken in your childhood home)
+SpecialPop - Parent or guardian
+SpecialPop - Prefer not to disclose
+FAFSA
+PellEligible
+WorkHours
+Age
+Why did you choose to register for Math 1141 Calculus with Review? (Select all that apply)
+YearsSite
+What grade do you require for your program/major/scholarship/etc. in this course?
+ClassRank - Selected Choice
+ClassRank
+ClassRank - Other (please specify) - Text
+STEM_Major
+STEM_Major.1
+Major_Text
+"Including
+time spent in class, approximately how many hours per week did you expect to
+spend on this calculus course (in class, studying, reading, doing homework,
+etc.) this semester?"
+"Including
+this course, how many credit hours are you taking this semester?"
+Preparation - Selected Choice
+"Are
+you the primary caregiver for a dependent?"
+Preparation - No (please explain) - Text
+"Did
+you take calculus in high school?"
+"Which
+academic year did you take your last calculus course in high school?"
+ExpectedGrade - Selected Choice
+ExpectedGrade - Other (please clarify) - Text
+NextCourse - Selected Choice
+NextCourse - Other (please explain) - Text
+IdentityFR
+AnythingElse
+Contact - Selected Choice
+Contact - Yes, here is my contact email: - Text
+Site
+ResearchTeam
+Term
+Create New Field or Choose From Dropdown...
+Recitation
+SuppInst.1
+CoEnroll.1
+SuppInst
+CoEnroll
+Q113 - Topics
+CourseLevel

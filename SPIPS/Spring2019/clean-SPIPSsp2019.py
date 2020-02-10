@@ -4,10 +4,11 @@ import pandas
 from pandas import DataFrame
 
 class Cleaner:
-    def __init__(self, numeric_path, text_path, clean_path): 
+    def __init__(self, numeric_path, text_path, clean_path, textColumn_path): 
         self.numeric_path = numeric_path
         self.text_path = text_path
         self.clean_path = clean_path
+        self.textColumn_path = textColumn_path
         self.clean_year = ""
         self.clean_semester = ""
 
@@ -55,12 +56,9 @@ class Cleaner:
         school_year = file_name_hold[len(file_name_hold)-1].split(".")[0]
 
         
-        text_bank = ["Enrolled course - Course", "Enrolled course - Lecture Section", "Enrolled course - Schedule", 
-        "Enrolled course - Instructor", "Which recitation section are you currently enrolled in for [QID7-ChoiceGroup-SelectedAnswers-1]? - Course", 
-        "Which recitation section are you currently enrolled in for [QID7-ChoiceGroup-SelectedAnswers-1]? - Recitation Section", 
-        "Which recitation section are you currently enrolled in for [QID7-ChoiceGroup-SelectedAnswers-1]? - Schedule", 
-        "Which recitation section are you currently enrolled in for [QID7-ChoiceGroup-SelectedAnswers-1]? - Instructor", "Next class - Selected Choice",
-        "Next class - Other: - Text"]
+        text_bank = ["EnrolledCourse - Course name and number", "EnrolledCourse - Instructor", 
+        "EnrolledCourse - Scheduled time", "EnrolledCourse - Recitation/Lab Section", "NextCourse - Selected Choice", 
+        "NextCourse - Other (please explain) - Text"]
 
         print("Copying text columns...")
         for index in range(0, len(text_bank)): 
@@ -173,10 +171,7 @@ class Cleaner:
         print("Finding duplicates...")
         # find duplicates 
         try: 
-            if isthisOhioState: 
-                student_id_text = "Student ID"
-            else: 
-                student_id_text = "StudentID"
+            student_id_text = "StudentID"
             found_ids = []
             droplist = []
             error1_hold = []
@@ -201,12 +196,8 @@ class Cleaner:
                     # get row index from a dataframe copy 
                     duplicate_rows_index = merged_dataframe.index[merged_dataframe[student_id_text] == duplicate_id].tolist()
                     # known columns that contain short response text 
-                    text_columns =["OpenHelpful", "OpenUnhelpful", "TechUse - Other (please specify): - Text", "TutoringSource - Other (please explain) - Text", 
-                    "TutoringSource - Tutoring center at [Field-Site] (please identify the center): - Text", "TutoringSource - Tutoring center at Morgan State University  (please identify the center): - Text", 
-                    "What specific teaching strategies does your instructor use to promote equitable and inclusive stu...", "What specific teaching strategies does your instructor use to promote equitable and inclusive student engagement?", 
-                    "How (if at all) has your experience in this course differed from last term?", "Gender - Not listed (please specify): - Text", "EthnoRacial - Not listed (please specify): - Text", 
-                    "SexualOrientation - Not listed (please specify): - Text", "ClassRank - Other (please specify) - Text", "Major_Text", "Preparation - No (please explain) - Text", "NextCourse - TEXT", 
-                    "NextCourse - Other - Text", "NextCourse - Other (please explain) - Text", "IdentityFR", "AnythingElse", "Contact - Yes, here is my contact email: - Text"]
+                    with open(self.textColumn_path) as fp: 
+                        text_columns = [column[:-1] for column in fp]
                     index = 0 
                     end_index = len(text_columns)
                     # try to take text from duplicate rows and add to most complete row 
@@ -302,5 +293,6 @@ class Cleaner:
 numeric_path = r"C:\Users\mting\Desktop\Work\seminal\data\spips\spring2019\numeric"
 text_path = r"C:\Users\mting\Desktop\Work\seminal\data\spips\spring2019\text"
 clean_path = r"C:\\Users\\mting\\Desktop\\Work\\seminal\\data\\spips\\spring2019\\clean\\"
-cleantest = Cleaner(numeric_path, text_path, clean_path) 
+textColumn_path = r"C:\Users\mting\Desktop\Work\Seminal\seminalcode\SPIPS\Spring2019\textcolumns-SPIPSsp2019.txt"
+cleantest = Cleaner(numeric_path, text_path, clean_path, textColumn_path) 
 cleantest.findBothFiles()
