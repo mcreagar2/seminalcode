@@ -105,7 +105,6 @@ class putTogether:
                     else: 
                         (dataframe['dataframe']).insert(index, column_name, "")
             (dataframe['dataframe']).insert(0, "School", dataframe['school_name'])
-        # collect columns of interest 
         frames = []
         column_names.insert(0, "School")
         for dataframe in dataframe_hold: 
