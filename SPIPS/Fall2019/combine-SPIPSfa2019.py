@@ -26,82 +26,18 @@ class putTogether:
                 if column_name not in (dataframe['dataframe']).columns.tolist(): 
                     # all exceptions found by hand 
                     ###########################################
-                    if (dataframe['school_name'] == "UNL" and column_name == "Start Date"): 
-                        (dataframe['dataframe']).rename(columns = {"StartDate" : column_name}, inplace = True)
-                    ###########################################
-                    elif (dataframe['school_name'] == "UNL" and column_name == "IP Address"): 
-                        (dataframe['dataframe']).rename(columns = {"IPAddress" : column_name}, inplace = True)
-                    ###########################################
-                    elif (dataframe['school_name'] == "UNL" and column_name == "TutoringSource - Selected Choice - Tutoring center at ${e://Field/Site} (please identify the center):"): 
-                        (dataframe['dataframe']).rename(columns = {"TutoringSource - Selected Choice - Tutoring center at ${e://Field/Site}&nbsp;(please identify the center):" : column_name}, inplace = True)
-                    ###########################################
-                    elif (dataframe['school_name'] == "MSU" and column_name == "TutoringSource - Tutoring center at [Field-Site] (please identify the center): - Text"): 
-                        (dataframe['dataframe']).rename(columns = {"TutoringSource - Tutoring center at Morgan State University  (please identify the center): - Text" : column_name}, inplace = True)
-                    ###########################################
-                    elif (dataframe['school_name'] in ["MSU", "OhioState"] and column_name == "NextCourse - Other (please explain) - Text"): 
-                        if dataframe['school_name'] == "MSU": 
-                            (dataframe['dataframe']).rename(columns = {"NextCourse - Other - Text" : column_name}, inplace = True)
-                        else: 
-                            (dataframe['dataframe']).rename(columns = {"NextCourse - Other: - Text" : column_name}, inplace = True)
-                    ###########################################
-                    elif (column_name == "PIPS - I constructively criticize other students ideas during class"): 
-                        if (dataframe['school_name'] in ["CSUEastBay", "CSUFullerton", "Loyola", "Maryland", "MSU", "OhioState", "Oklahoma", "UNL"]): 
-                            (dataframe['dataframe']).rename(columns = {"PIPS - I constructively criticize other studentâ€™s ideas during class" : column_name}, inplace = True)
-                        elif (dataframe['school_name'] in ["KSU", "UTRGV"]): 
-                            (dataframe['dataframe']).rename(columns = {"PIPS - I constructively criticize other student’s ideas during class" : column_name}, inplace = True)
-                        else: 
-                            print("***couldn't find a option for the " + column_name + " question***")
-                    ###########################################
-                    elif (column_name == "PIPS_Helpful - I constructively criticize other students ideas during class"): 
-                        if (dataframe['school_name'] in ["CSUEastBay", "CSUFullerton", "Loyola", "Maryland", "MSU", "OhioState", "Oklahoma"]): 
-                            (dataframe['dataframe']).rename(columns = {"PIPS_Helpful - I constructively criticize other studentâ€™s ideas during class" : column_name}, inplace = True)
-                        elif (dataframe['school_name'] in ["KSU", "UTRGV"]): 
-                            (dataframe['dataframe']).rename(columns = {"PIPS_Helpful - I constructively criticize other student’s ideas during class" : column_name}, inplace = True)
-                        elif (dataframe['school_name'] in ["UNL"]): 
-                            (dataframe['dataframe']).rename(columns = {"PIPS_Helpful - I constructively criticize other student's ideas during class" : column_name}, inplace = True)
-                        else: 
-                            print("***couldn't find a option for the " + column_name + " question***")
-                    ###########################################
-                    elif (column_name == "PIPS_Lab - I constructively criticize other students ideas during class"): 
-                        if (dataframe['school_name'] in ["CSUEastBay", "CSUFullerton", "Loyola", "Maryland", "MSU", "OhioState", "Oklahoma", "UNL"]): 
-                            (dataframe['dataframe']).rename(columns = {"PIPS_Lab - I constructively criticize other studentâ€™s ideas during class" : column_name}, inplace = True)
-                        elif (dataframe['school_name'] in ["UTRGV"]): 
-                            (dataframe['dataframe']).rename(columns = {"PIPS_Lab - I constructively criticize other student’s ideas during class" : column_name}, inplace = True)
-                        elif (dataframe['school_name'] == "KSU"): 
-                            (dataframe['dataframe']).insert(index, column_name, "")
-                        else:
-                            print("***couldn't find a option for the " + column_name + " question***")
-                    ###########################################
-                    elif (column_name == "Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I can learn from hearing other peoples mathematical thinking, even if their thinking is not correct."): 
-                        if (dataframe['school_name'] in ["CSUEastBay", "CSUFullerton", "Loyola", "Maryland", "MSU", "OhioState", "Oklahoma"]): 
-                            (dataframe['dataframe']).rename(columns = {"Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I can learn from hearing other peopleâ€™s mathematical thinking, even if their thinking is not correct." : column_name}, inplace = True)
-                        elif (dataframe['school_name'] in ["KSU", "UTRGV"]): 
-                            (dataframe['dataframe']).rename(columns = {"Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I can learn from hearing other people’s mathematical thinking, even if their thinking is not correct." : column_name}, inplace = True)
-                        elif (dataframe['school_name'] in ["UNL"]): 
-                            (dataframe['dataframe']).rename(columns = {"Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I can learn from hearing other people's mathematical thinking, even if their thinking is not correct." : column_name}, inplace = True)
-                        else: 
-                            print("***couldn't find a option for the " + column_name + " question***")
-                    ###########################################
-                    elif (column_name == "Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other peoples mathematical thinking, even if their thinking is not correct."): 
-                        if (dataframe['school_name'] in ["CSUEastBay", "CSUFullerton", "Loyola", "Maryland", "MSU", "OhioState", "Oklahoma"]): 
-                            (dataframe['dataframe']).rename(columns = {"Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other peopleâ€™s mathematical thinking, even if their thinking is not correct." : column_name}, inplace = True)
-                        elif (dataframe['school_name'] in ["KSU", "UTRGV"]): 
-                            (dataframe['dataframe']).rename(columns = {"Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other people’s mathematical thinking, even if their thinking is not correct." : column_name}, inplace = True)
-                        elif (dataframe['school_name'] in ["UNL"]): 
-                            (dataframe['dataframe']).rename(columns = {"Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other people's mathematical thinking, even if their thinking is not correct." : column_name}, inplace = True)
-                        else: 
-                            print("***couldn't find a option for the " + column_name + " question***")
-                    ###########################################
-                    elif (column_name == "SpecialPop - First-generation college student (i.e., neither parent nor guardian completed a Bachelors degree)"): 
-                        if (dataframe['school_name'] in ["CSUEastBay", "CSUFullerton", "Loyola", "Maryland", "OhioState", "Oklahoma"]): 
-                            (dataframe['dataframe']).rename(columns = {"SpecialPop - First-generation college student (i.e., neither parent nor guardian completed a Bachelorâ€™s degree)" : column_name}, inplace = True)
-                        elif (dataframe['school_name'] in ["UNL"]): 
-                            (dataframe['dataframe']).rename(columns = {"SpecialPop - First-generation college student (i.e., neither parent nor guardian completed a Bachelor's degree)" : column_name}, inplace = True)
-                        elif dataframe['school_name'] in ["KSU", "MSU", "UTRGV"]: 
-                            (dataframe['dataframe']).insert(index, column_name, "")
-                        else: 
-                            print("***couldn't find a option for the " + column_name + " question***")
-                    ###########################################
+                    if (dataframe['school_name'] == "OhioState" and column_name == "NextCourse - Other (please explain) - Text"): 
+                        (dataframe['dataframe']).rename(columns = {"NextCourse - Other: - Text" : column_name}, inplace = True)
+                    elif (dataframe['school_name'] == "OhioState" and column_name == "Including time spent in class, approximately how many hours per week did you expect to spend on this calculus course (in class, studying, reading, doing homework, etc.) this semester?"):
+                        (dataframe['dataframe']).rename(columns = {"Including\ntime spent in class, approximately how many hours per week did you expect to\nspend on this calculus course (in class, studying, reading, doing homework,\netc.) this semester?": column_name}, inplace = True)
+                    elif (dataframe['school_name'] == "OhioState" and column_name == "Including this course, how many credit hours are you taking this semester?"):
+                        (dataframe['dataframe']).rename(columns = {"Including\nthis course, how many credit hours are you taking this semester?": column_name}, inplace = True)
+                    elif (dataframe['school_name'] == "OhioState" and column_name == "Are you the primary caregiver for a dependent?"):
+                        (dataframe['dataframe']).rename(columns = {"Are\nyou the primary caregiver for a dependent?": column_name}, inplace = True)
+                    elif (dataframe['school_name'] == "OhioState" and column_name == "Did you take calculus in high school?"):
+                        (dataframe['dataframe']).rename(columns = {"Did\nyou take calculus in high school?": column_name}, inplace = True)
+                    elif (dataframe['school_name'] == "OhioState" and column_name == "Which academic year did you take your last calculus course in high school?"):
+                        (dataframe['dataframe']).rename(columns = {"Which\nacademic year did you take your last calculus course in high school?": column_name}, inplace = True)
                     else: 
                         (dataframe['dataframe']).insert(0, column_name, "")
             (dataframe['dataframe']).insert(0, "School", dataframe['school_name'])
@@ -114,8 +50,8 @@ class putTogether:
 
 
 
-path_to_clean = r"C:\Users\mting\Desktop\Work\Seminal\data\spips\spring2019\clean" 
-path_to_columnNames = r"C:\Users\mting\Desktop\Work\Seminal\seminalcode\SPIPS\Spring2019\columnnames-SPIPsp2019.txt"
+path_to_clean = r"C:\Users\mting\Desktop\Work\Seminal\data\spips\fall2019\clean" 
+path_to_columnNames = r"C:\Users\mting\Desktop\Work\Seminal\seminalcode\SPIPS\Fall2019\columnnames-SPIPfa2019.txt"
 
 putting_it_together = putTogether(path_to_clean, path_to_columnNames)
 putting_it_together.readinFiles()

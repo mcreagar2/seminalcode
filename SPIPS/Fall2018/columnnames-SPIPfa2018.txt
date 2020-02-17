@@ -232,7 +232,7 @@ SpecialPop - Prefer not to disclose
 FAFSA
 PellEligible
 WorkHours
-Approximately how many hours per week over the term did you spend working on math outside of class?
+Approximately how\nmany hours per week over the term did you spend working on math outside of\nclass?
 Age
 YearsSite
 ClassRank - Selected Choice

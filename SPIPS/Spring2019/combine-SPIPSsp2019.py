@@ -102,6 +102,21 @@ class putTogether:
                         else: 
                             print("***couldn't find a option for the " + column_name + " question***")
                     ###########################################
+
+
+                    elif (dataframe['school_name'] == "OhioState" and column_name == "Including time spent in class, approximately how many hours per week did you expect to spend on this calculus course (in class, studying, reading, doing homework, etc.) this semester?"):
+                        (dataframe['dataframe']).rename(columns = {"Including\ntime spent in class, approximately how many hours per week did you expect to\nspend on this calculus course (in class, studying, reading, doing homework,\netc.) this semester?" : column_name}, inplace = True)
+                    elif (dataframe['school_name'] == "OhioState" and column_name == "Including this course, how many credit hours are you taking this semester?"):
+                        (dataframe['dataframe']).rename(columns = {"Including\nthis course, how many credit hours are you taking this semester?" : column_name}, inplace = True)
+                    elif (dataframe['school_name'] == "OhioState" and column_name == "Are you the primary caregiver for a dependent?"):
+                        (dataframe['dataframe']).rename(columns = {"Are\nyou the primary caregiver for a dependent?" : column_name}, inplace = True)
+                    elif (dataframe['school_name'] == "OhioState" and column_name == "Did you take calculus in high school?"):
+                        (dataframe['dataframe']).rename(columns = {"Did\nyou take calculus in high school?" : column_name}, inplace = True)
+                    elif (dataframe['school_name'] == "OhioState" and column_name == "Which academic year did you take your last calculus course in high school?"):
+                        (dataframe['dataframe']).rename(columns = {"Which\nacademic year did you take your last calculus course in high school?" : column_name}, inplace = True)
+
+
+                    ##########################################    
                     else: 
                         (dataframe['dataframe']).insert(0, column_name, "")
             (dataframe['dataframe']).insert(0, "School", dataframe['school_name'])

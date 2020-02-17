@@ -247,13 +247,13 @@ ClassRank - Other (please specify) - Text
 STEM_Major
 STEM_Major.1
 Major_Text
-"Including\ntime spent in class, approximately how many hours per week did you expect to\nspend on this calculus course (in class, studying, reading, doing homework,\netc.) this semester?"
-"Including\nthis course, how many credit hours are you taking this semester?"
+Including time spent in class, approximately how many hours per week did you expect to spend on this calculus course (in class, studying, reading, doing homework, etc.) this semester?
+Including this course, how many credit hours are you taking this semester?
 Preparation - Selected Choice
-"Are\nyou the primary caregiver for a dependent?"
+Are you the primary caregiver for a dependent?
 Preparation - No (please explain) - Text
-"Did\nyou take calculus in high school?"
-"Which\nacademic year did you take your last calculus course in high school?"
+Did you take calculus in high school?
+Which academic year did you take your last calculus course in high school?
 ExpectedGrade - Selected Choice
 ExpectedGrade - Other (please clarify) - Text
 NextCourse - Selected Choice
