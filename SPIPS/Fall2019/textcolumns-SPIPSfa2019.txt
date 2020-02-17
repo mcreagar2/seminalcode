@@ -1,0 +1,23 @@
+AnythingElse
+ClassRank - Other (please specify) - Text
+Contact - Yes, here is my contact email: - Text
+EthnoRacial - Not listed (please specify): - Text
+ExpectedGrade - Other (please clarify) - Text
+Gender - Not listed (please specify): - Text
+How (if at all) has your experience in this course differed from last term?
+IdentityFR
+Major_Text
+NextCourse - Other - Text
+NextCourse - Other: - Text
+NextCourse - Other (please explain) - Text
+NextCourse - TEXT
+OpenHelpful
+OpenUnhelpful
+Preparation - No (please explain) - Text
+SexualOrientation - Not listed (please specify): - Text
+TechUse - Other (please specify): - Text
+TutoringSource - Other (please explain) - Text
+TutoringSource - Tutoring center at [Field-Site] (please identify the center): - Text
+TutoringSource - Tutoring center at Morgan State University  (please identify the center): - Text
+What specific teaching strategies does your instructor use to promote equitable and inclusive stu...
+What specific teaching strategies does your instructor use to promote equitable and inclusive student engagement?
