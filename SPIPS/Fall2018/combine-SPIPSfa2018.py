@@ -54,54 +54,57 @@ class putTogether:
                     elif dataframe['school_name'] == "Maryland" and column_name == "NextCourse - Other (please explain) - Text": 
                         (dataframe['dataframe']).rename(columns = {"NextCourse - Other (please explain): - Text" : column_name}, inplace = True)
                     ###########################################
-                    elif column_name == "PIPS - I constructively criticize other students ideas during class" and bad_column_names[bad_index] in (dataframe['dataframe']).columns.tolist(): 
-                        bad_index += 1
-                        if dataframe['school_name'] == "Maryland": 
-                            (dataframe['dataframe']).rename(columns = {"PIPS - I constructively criticize other student‚Äôs ideas during class" : column_name}, inplace = True)
-                        else: 
-                            (dataframe['dataframe']).rename(columns = {"PIPS - I constructively criticize other studentâ€™s ideas during class" : column_name}, inplace = True)
-                    ###########################################
-                    elif column_name == "PIPS_Helpful - I constructively criticize other students ideas during class" and bad_column_names[bad_index] in (dataframe['dataframe']).columns.tolist(): 
-                        bad_index += 1
-                        if dataframe['school_name'] == "Maryland": 
-                            (dataframe['dataframe']).rename(columns = {"PIPS_Helpful - I constructively criticize other student‚Äôs ideas during class" : column_name}, inplace = True)
-                        else: 
-                            (dataframe['dataframe']).rename(columns = {"PIPS_Helpful - I constructively criticize other studentâ€™s ideas during class" : column_name}, inplace = True)
-                    ###########################################
-                    elif column_name == "PIPS_Lab - I constructively criticize other students ideas during class" and bad_column_names[bad_index] in (dataframe['dataframe']).columns.tolist(): 
-                        bad_index += 1
-                        if dataframe['school_name'] == "Maryland": 
-                            (dataframe['dataframe']).rename(columns = {"PIPS_Lab - I constructively criticize other students ideas during class" : column_name}, inplace = True)
-                        else: 
-                            (dataframe['dataframe']).rename(columns = {"PIPS_Lab - I constructively criticize other studentâ€™s ideas during class" : column_name}, inplace = True)
-                    ###########################################
-                    elif column_name == "Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I can learn from hearing other peoples mathematical thinking, even if their thinking is not correct." and bad_column_names[bad_index] in (dataframe['dataframe']).columns.tolist(): 
-                        bad_index += 1 
-                        if dataframe['school_name'] == "Maryland": 
-                            (dataframe['dataframe']).rename(columns = {"Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I can learn from hearing other people‚Äôs mathematical thinking, even if their thinking is not correct." : 
-                            column_name}, inplace = True)
-                        else: 
-                            (dataframe['dataframe']).rename(columns = {"Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I can learn from hearing other peopleâ€™s mathematical thinking, even if their thinking is not correct." : 
-                            column_name}, inplace = True)
-                    ###########################################
-                    elif column_name == "Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other peoples mathematical thinking, even if their thinking is not correct." and bad_column_names[bad_index] in (dataframe['dataframe']).columns.tolist(): 
-                        bad_index += 1
-                        if dataframe['school_name'] == "Maryland": 
-                            (dataframe['dataframe']).rename(columns = {"Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other people‚Äôs mathematical thinking, even if their thinking is not correct." : 
-                            column_name}, inplace = True)
-                        else: 
-                            (dataframe['dataframe']).rename(columns = {"Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other peopleâ€™s mathematical thinking, even if their thinking is not correct." : 
-                            column_name}, inplace = True)
-                    ###########################################
-                    elif column_name == "SpecialPop - First-generation college student (i.e., neither parent nor guardian completed a Bachelors degree)" and bad_column_names[bad_index] in (dataframe['dataframe']).columns.tolist(): 
-                        bad_index += 1
-                        if dataframe['school_name'] == "Maryland": 
-                            (dataframe['dataframe']).rename(columns = {"SpecialPop - First-generation college student (i.e., neither parent nor guardian completed a Bachelor‚Äôs degree)" : 
-                            column_name}, inplace = True)
-                        else: 
-                            (dataframe['dataframe']).rename(columns = {"SpecialPop - First-generation college student (i.e., neither parent nor guardian completed a Bachelorâ€™s degree)" : 
-                            column_name}, inplace = True)
-                    ###########################################
+
+                    ###### BAD CODE USE combine-SPIPSsp2019.py ############################################
+
+                    # elif column_name == "PIPS - I constructively criticize other students ideas during class" and bad_column_names[bad_index] in (dataframe['dataframe']).columns.tolist(): 
+                    #     bad_index += 1
+                    #     if dataframe['school_name'] == "Maryland": 
+                    #         (dataframe['dataframe']).rename(columns = {"PIPS - I constructively criticize other student‚Äôs ideas during class" : column_name}, inplace = True)
+                    #     else: 
+                    #         (dataframe['dataframe']).rename(columns = {"PIPS - I constructively criticize other studentâ€™s ideas during class" : column_name}, inplace = True)
+                    # ###########################################
+                    # elif column_name == "PIPS_Helpful - I constructively criticize other students ideas during class" and bad_column_names[bad_index] in (dataframe['dataframe']).columns.tolist(): 
+                    #     bad_index += 1
+                    #     if dataframe['school_name'] == "Maryland": 
+                    #         (dataframe['dataframe']).rename(columns = {"PIPS_Helpful - I constructively criticize other student‚Äôs ideas during class" : column_name}, inplace = True)
+                    #     else: 
+                    #         (dataframe['dataframe']).rename(columns = {"PIPS_Helpful - I constructively criticize other studentâ€™s ideas during class" : column_name}, inplace = True)
+                    # ###########################################
+                    # elif column_name == "PIPS_Lab - I constructively criticize other students ideas during class" and bad_column_names[bad_index] in (dataframe['dataframe']).columns.tolist(): 
+                    #     bad_index += 1
+                    #     if dataframe['school_name'] == "Maryland": 
+                    #         (dataframe['dataframe']).rename(columns = {"PIPS_Lab - I constructively criticize other students ideas during class" : column_name}, inplace = True)
+                    #     else: 
+                    #         (dataframe['dataframe']).rename(columns = {"PIPS_Lab - I constructively criticize other studentâ€™s ideas during class" : column_name}, inplace = True)
+                    # ###########################################
+                    # elif column_name == "Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I can learn from hearing other peoples mathematical thinking, even if their thinking is not correct." and bad_column_names[bad_index] in (dataframe['dataframe']).columns.tolist(): 
+                    #     bad_index += 1 
+                    #     if dataframe['school_name'] == "Maryland": 
+                    #         (dataframe['dataframe']).rename(columns = {"Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I can learn from hearing other people‚Äôs mathematical thinking, even if their thinking is not correct." : 
+                    #         column_name}, inplace = True)
+                    #     else: 
+                    #         (dataframe['dataframe']).rename(columns = {"Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I can learn from hearing other peopleâ€™s mathematical thinking, even if their thinking is not correct." : 
+                    #         column_name}, inplace = True)
+                    # ###########################################
+                    # elif column_name == "Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other peoples mathematical thinking, even if their thinking is not correct." and bad_column_names[bad_index] in (dataframe['dataframe']).columns.tolist(): 
+                    #     bad_index += 1
+                    #     if dataframe['school_name'] == "Maryland": 
+                    #         (dataframe['dataframe']).rename(columns = {"Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other people‚Äôs mathematical thinking, even if their thinking is not correct." : 
+                    #         column_name}, inplace = True)
+                    #     else: 
+                    #         (dataframe['dataframe']).rename(columns = {"Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other peopleâ€™s mathematical thinking, even if their thinking is not correct." : 
+                    #         column_name}, inplace = True)
+                    # ###########################################
+                    # elif column_name == "SpecialPop - First-generation college student (i.e., neither parent nor guardian completed a Bachelors degree)" and bad_column_names[bad_index] in (dataframe['dataframe']).columns.tolist(): 
+                    #     bad_index += 1
+                    #     if dataframe['school_name'] == "Maryland": 
+                    #         (dataframe['dataframe']).rename(columns = {"SpecialPop - First-generation college student (i.e., neither parent nor guardian completed a Bachelor‚Äôs degree)" : 
+                    #         column_name}, inplace = True)
+                    #     else: 
+                    #         (dataframe['dataframe']).rename(columns = {"SpecialPop - First-generation college student (i.e., neither parent nor guardian completed a Bachelorâ€™s degree)" : 
+                    #         column_name}, inplace = True)
+                    # ###########################################
                     else: 
                         (dataframe['dataframe']).insert(index, column_name, "")
             (dataframe['dataframe']).insert(0, "School", dataframe['school_name'])

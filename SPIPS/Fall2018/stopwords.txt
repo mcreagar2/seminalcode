@@ -3,6 +3,8 @@ teaches
 teaching
 teachings
 teacher
+teacher's
+assistant
 professor
 prof
 prof.

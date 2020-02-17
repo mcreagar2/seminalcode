@@ -1,4 +1,4 @@
-Start Date
+﻿Start Date
 End Date
 Response Type
 IP Address
@@ -120,7 +120,7 @@ PIPS_Lab - I receive immediate feedback on my work during class (e.g., student r
 PIPS_Lab - I am asked to respond to questions during class time
 PIPS_Lab - In my class a variety of means (models, drawings, graphs, symbols, simulations, tables, etc.) are used to represent course topics and/or solve problems
 PIPS_Lab - I talk with other students about course topics during class
-PIPS_Lab - I constructively criticize other student’s ideas during class
+PIPS_Lab - I constructively criticize other students ideas during class
 PIPS_Lab - I discuss the difficulties I have with math with other students during class
 PIPS_Lab - I work on problems individually during class time
 PIPS_Lab - I work with other students in small groups during class
@@ -172,7 +172,7 @@ Please indicate your level of agreement for the following statements from the be
 Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - In math, it is important for me to make sense out of mathematical approaches before I can use them correctly.
 Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - When a math problem arises that I can't immediately solve, I stick with it until I have made progress toward a solution.
 Please indicate your level of agreement for the following statements from the beginning of the co... - Beginning of course - I enjoy figuring out math problems with other people.
-Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other people’s mathematical thinking, even if their thinking is not correct.
+Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I can learn from hearing other peoples mathematical thinking, even if their thinking is not correct.
 Please indicate your level of agreement for the following statements from the beginning of the co... - Now - I cannot learn mathematics if the teacher does not explain things well in class.
 Please indicate your level of agreement for the following statements from the beginning of the co... - Now - When a question is left unanswered in math class, I continue to think about it afterward.
 Please indicate your level of agreement for the following statements from the beginning of the co... - Now - Nearly everyone is capable of understanding mathematics if they work at it.
