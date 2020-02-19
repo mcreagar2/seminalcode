@@ -1,3 +1,38 @@
+Laura
+Langdon
+Vu
+Nguyen
+Bettina
+Pedemonte
+Renita
+Angus
+Andrea
+Arauza
+Rivera
+Kevin
+Callahan
+Gul
+Yayli
+Jesus
+Oliver
+Kathleen
+Hann
+Sharon
+Buckley
+Ehsan
+Kamalinejad
+Zhang
+Chunfang
+Sarah
+Cardenas
+Bianca
+Lopez
+David
+Yrueta
+Ozlem
+Guclu
+William 
+Fraley
 teaches
 teaching
 teachings
@@ -21,10 +56,10 @@ miss.
 instructor
 gu
 isi
-Sheyda
-Eb
-Tae
-Edgren
+sheyda
+eb
+tae
+edgren
 popovych
 aaren
 aarika
@@ -2215,7 +2250,6 @@ holly-anne
 hollyanne
 honey
 honoria
-hope
 horatia
 hortense
 hortensia
@@ -3439,7 +3473,6 @@ maurita
 maurizia
 mavis
 mavra
-max
 maxi
 maxie
 maxine
@@ -3569,7 +3602,6 @@ millisent
 milly
 milzie
 mimi
-min
 mina
 minda
 mindy
@@ -5197,7 +5229,6 @@ arny
 aron
 arri
 arron
-art
 artair
 arte
 artemas
@@ -7395,7 +7426,6 @@ maurise
 maurits
 maurizio
 maury
-max
 maxie
 maxim
 maximilian
@@ -10049,7 +10079,6 @@ arria
 arrio
 arron
 arst
-art
 arta
 artair
 artamas
@@ -10400,7 +10429,6 @@ bajaj
 bak
 bakeman
 bakemeier
-baker
 bakerman
 bakki
 bal
@@ -11127,7 +11155,6 @@ blancha
 blanchard
 blanche
 blanchette
-bland
 blandina
 blanding
 blane
@@ -11359,7 +11386,6 @@ bough
 boulanger
 bouldon
 bouley
-bound
 bounds
 bourgeois
 bourke
@@ -11842,7 +11868,6 @@ buskirk
 buskus
 bussey
 bussy
-bust
 butch
 butcher
 butler
@@ -13065,7 +13090,6 @@ consuela
 consuelo
 conte
 conti
-converse
 convery
 conway
 cony
@@ -13201,7 +13225,6 @@ cosimo
 cosma
 cosme
 cosmo
-cost
 costa
 costanza
 costanzia
@@ -13258,7 +13281,6 @@ craggy
 craig
 crain
 cralg
-cram
 cramer
 cran
 crandale
@@ -13753,7 +13775,6 @@ debra
 decamp
 decato
 decca
-december
 decima
 deck
 decker
@@ -14412,7 +14433,6 @@ drusie
 drusilla
 drusus
 drusy
-dry
 dryden
 drye
 dryfoos
@@ -15753,7 +15773,6 @@ filippo
 fillander
 fillbert
 fillender
-filler
 fillian
 filmer
 filmore
@@ -15964,7 +15983,6 @@ foy
 fraase
 fradin
 frager
-frame
 fran
 france
 francene
@@ -18158,7 +18176,6 @@ hooper
 hoopes
 hootman
 hoover
-hope
 hopfinger
 hopkins
 hoppe
@@ -18392,7 +18409,6 @@ ibrahim
 ibson
 ichabod
 icken
-id
 ida
 idalia
 idalina
@@ -20758,7 +20774,6 @@ leah
 leahey
 leake
 leal
-lean
 leanard
 leander
 leandra
@@ -22368,7 +22383,6 @@ mauve
 mavilia
 mavis
 mavra
-max
 maxa
 maxama
 maxantia
@@ -22920,7 +22934,6 @@ milurd
 milzie
 mima
 mimi
-min
 mina
 minabe
 minardi
@@ -23194,7 +23207,6 @@ moulden
 mouldon
 moule
 moulton
-mount
 mountford
 mountfort
 mourant
@@ -23577,7 +23589,6 @@ nerty
 nesbitt
 nesline
 neslund
-ness
 nessa
 nessi
 nessie
@@ -24590,7 +24601,6 @@ pearlstein
 pearman
 pears
 pearse
-pearson
 pease
 peatroy
 pebrook
@@ -24989,7 +24999,6 @@ podvin
 pogue
 poirer
 pokorny
-pol
 polad
 polak
 poland
@@ -25425,7 +25434,6 @@ randolph
 randy
 ranee
 raney
-range
 rangel
 ranger
 rani
@@ -27908,7 +27916,6 @@ strep
 strephon
 strephonn
 strepphon
-stretch
 stricklan
 strickland
 strickler
@@ -28501,7 +28508,6 @@ thierry
 thilda
 thilde
 thill
-thin
 thinia
 thirion
 thirza
@@ -28649,7 +28655,6 @@ tine
 tingey
 tingley
 tini
-tiny
 tinya
 tiossem
 tiphane
@@ -29288,7 +29293,6 @@ varion
 varipapa
 varney
 varrian
-vary
 vas
 vashtee
 vashti
@@ -29758,7 +29762,6 @@ webber
 weber
 webster
 wedurn
-weed
 wehner
 wehrle
 wei
@@ -30039,7 +30042,6 @@ wina
 wincer
 winchell
 winchester
-wind
 windham
 windsor
 windy
@@ -31006,7 +31008,6 @@ rosemarie
 angel
 desiree
 antonia
-hope
 ginger
 janis
 betsy
@@ -32928,7 +32929,6 @@ shawnee
 shaneka
 quiana
 pamelia
-min
 merri
 merlene
 margit
@@ -33305,7 +33305,6 @@ yang
 willette
 vanita
 tuyet
-tiny
 syreeta
 silva
 scott
@@ -34185,7 +34184,6 @@ maisha
 lisandra
 leo
 lekisha
-lean
 laurence
 lakendra
 krystin
@@ -34863,7 +34861,6 @@ hill
 scott
 green
 adams
-baker
 gonzalez
 nelson
 carter
@@ -35075,7 +35072,6 @@ brewer
 hoffman
 carlson
 silva
-pearson
 holland
 douglas
 fleming
@@ -35828,7 +35824,6 @@ newell
 crowe
 wang
 friedman
-bland
 swain
 holley
 felix
@@ -36579,7 +36574,6 @@ seay
 north
 maher
 kenny
-hope
 gagne
 barrow
 nava
@@ -37091,7 +37085,6 @@ ogle
 mcgregor
 laughlin
 helm
-burden
 wheatley
 schreiber
 pressley
@@ -38220,7 +38213,6 @@ ruby
 ricci
 plunkett
 pannell
-ness
 leger
 hoy
 freitas
@@ -38245,7 +38237,6 @@ bertrand
 wasson
 tilton
 scarbrough
-oh
 leung
 larry
 irvine
@@ -38433,7 +38424,6 @@ southerland
 sorrell
 shay
 sells
-mount
 mccloskey
 martindale
 luttrell
@@ -38638,7 +38628,6 @@ bolen
 battles
 battaglia
 wooldridge
-weed
 trask
 rosser
 regalado
@@ -38821,7 +38810,6 @@ jorgenson
 jaynes
 funderburk
 freed
-frame
 durr
 creamer
 cosgrove
@@ -38978,7 +38966,6 @@ huskey
 goebel
 flagg
 cushman
-click
 castellano
 carder
 bumgarner
@@ -39014,7 +39001,6 @@ mackie
 hatley
 frazer
 fiore
-falls
 chesser
 bui
 bottoms
@@ -39564,7 +39550,6 @@ skeen
 robledo
 rincon
 reitz
-piazza
 pearl
 munger
 moten
@@ -39954,14 +39939,12 @@ caruthers
 brehm
 bosworth
 bost
-blow
 bias
 beeman
 basile
 bane
 aikens
 zachary
-wold
 walther
 tabb
 suber
@@ -40418,7 +40401,6 @@ jablonski
 haun
 gourley
 gilligan
-fix
 derby
 croy
 cotto
@@ -40796,7 +40778,6 @@ deweese
 desilva
 crossley
 cordeiro
-converse
 conde
 cheeks
 caldera
@@ -41074,7 +41055,6 @@ cordes
 brunet
 bidwell
 bennet
-bare
 tyrrell
 tharpe
 swinton
@@ -41484,7 +41464,6 @@ sandler
 roop
 rimmer
 raymer
-range
 radcliff
 otten
 moorer
@@ -41631,7 +41610,6 @@ berkley
 benz
 basso
 bash
-barrier
 zelaya
 woodring
 witkowski
@@ -41951,7 +41929,6 @@ oyler
 ogletree
 ogburn
 moton
-million
 merkel
 mask
 markus
@@ -42445,7 +42422,6 @@ derosier
 deitz
 dalessio
 cyrus
-cram
 chi
 castleman
 candelario
@@ -44398,7 +44374,6 @@ bohannan
 beem
 barto
 barre
-barley
 baptist
 azar
 ashbaugh
@@ -44615,7 +44590,6 @@ hibbert
 herrod
 hegarty
 hathorn
-harsh
 greenhaw
 grafton
 govea
@@ -45781,7 +45755,6 @@ sweatman
 studebaker
 streets
 stennett
-states
 starrett
 stannard
 stalvey
@@ -46251,7 +46224,6 @@ straus
 stoneking
 stjean
 stillings
-stiff
 stange
 square
 speicher
@@ -46452,7 +46424,6 @@ mcnichols
 mckinnis
 mcjunkin
 mcduffy
-max
 marcello
 manrique
 mannion
@@ -46709,7 +46680,6 @@ cogdill
 clinard
 cipriano
 chretien
-chalk
 cerny
 ceniceros
 celestin
@@ -46997,7 +46967,6 @@ moree
 moffat
 mixson
 minner
-min
 millette
 mederos
 mcgahan
@@ -47457,7 +47426,6 @@ geoghegan
 galyon
 gaeta
 funes
-font
 flor
 flanary
 fales
@@ -49515,7 +49483,6 @@ enger
 engels
 ducksworth
 duby
-dry
 drumheller
 douthitt
 doris
@@ -50794,7 +50761,6 @@ crofts
 covin
 coutee
 countess
-cost
 coppa
 coogan
 condrey
@@ -51644,7 +51610,6 @@ ziolkowski
 zinke
 zazueta
 zamorano
-younkin
 wittig
 witman
 winsett
@@ -51917,7 +51882,6 @@ friley
 frigo
 forshee
 folkes
-filler
 fernald
 ferber
 feingold
@@ -52610,7 +52574,6 @@ patchen
 paschke
 parkey
 pando
-overly
 ouimet
 ottman
 otter
@@ -52656,7 +52619,6 @@ maule
 mattera
 mathena
 matas
-mass
 mascorro
 marone
 marinello
@@ -54329,7 +54291,6 @@ brummer
 brueggemann
 brotzman
 bross
-broad
 brittian
 brimage
 briles
@@ -54403,7 +54364,6 @@ wohlgemuth
 wohlers
 wittenberg
 wingrove
-wind
 wimsatt
 willimas
 wilkenson
@@ -54836,7 +54796,6 @@ daoust
 damelio
 dahm
 dahlman
-cypher
 curling
 curlin
 cupit
@@ -54896,7 +54855,6 @@ brownstein
 brow
 brouse
 brodt
-broaden
 brisbin
 brightman
 bridgett
@@ -55728,7 +55686,6 @@ suddeth
 stumbo
 studivant
 strobl
-stretch
 streich
 stow
 stoodley
@@ -56061,7 +56018,6 @@ haverland
 haus
 harstad
 harriston
-harm
 harju
 hardegree
 hankey
@@ -57882,7 +57838,6 @@ stalls
 srour
 sprowl
 spevak
-sole
 sokoloff
 soderman
 snover
@@ -59592,7 +59547,6 @@ silveria
 silsby
 sillman
 sienkiewicz
-sick
 sia
 shomo
 shoff
@@ -60150,7 +60104,6 @@ dues
 dubrey
 dubray
 dubbs
-drone
 drey
 drewery
 dreier
@@ -62325,7 +62278,6 @@ cordaro
 corbridge
 corban
 coor
-cooler
 conkel
 cong
 conary
@@ -62944,7 +62896,6 @@ proffer
 prochazka
 probasco
 previte
-prayer
 pour
 portell
 porcher
@@ -64555,7 +64506,6 @@ lennard
 legner
 leaser
 leas
-lean
 leadingham
 lazarski
 layland
@@ -65788,7 +65738,6 @@ pollett
 politis
 polit
 poley
-pol
 pohler
 poggio
 poet
@@ -67239,7 +67188,6 @@ spice
 speyrer
 sperbeck
 spendlove
-speedy
 speckman
 spargur
 spangenberg
@@ -68240,7 +68188,6 @@ fronczak
 frishman
 friess
 frierdich
-fresh
 freestone
 franta
 frankovich
@@ -69607,7 +69554,6 @@ morden
 mordarski
 moravek
 morandi
-morale
 mooradian
 montejo
 montegut
@@ -69803,7 +69749,6 @@ leadley
 lazzara
 lazcano
 lazalde
-layer
 lavi
 lavancha
 lavan
@@ -76264,7 +76209,6 @@ thomer
 thoen
 thissen
 theimer
-thee
 thayn
 thanpaeng
 thammavongsa
@@ -76559,7 +76503,6 @@ searing
 seaholm
 seacord
 seaburg
-se
 scungio
 scroggie
 scritchfield
@@ -79640,7 +79583,6 @@ stroede
 streeby
 stredny
 strazi
-stray
 strawderman
 straiton
 stower
@@ -80277,7 +80219,6 @@ pietschman
 pierpoint
 pierini
 picon
-picking
 picardi
 phlegm
 phippin
@@ -82961,7 +82902,6 @@ yanofsky
 yaker
 yagues
 yach
-ya
 xue
 wyrosdick
 wygle
@@ -83944,7 +83884,6 @@ scampoli
 scammon
 scallon
 scalley
-scale
 scafuri
 scadden
 scacco
@@ -89389,7 +89328,6 @@ paolello
 pansini
 panelli
 panell
-pander
 pancholi
 panaro
 panagiotopoul
@@ -90896,7 +90834,6 @@ imbesi
 imbach
 illsley
 illig
-ill
 ignowski
 idler
 idleburg
@@ -91609,7 +91546,6 @@ fjeseth
 fithen
 fissell
 fischman
-fire
 fioranelli
 finseth
 finocchiaro
@@ -92277,7 +92213,6 @@ claycamp
 clawges
 claverie
 clarkston
-clarity
 clantz
 clakley
 clain
@@ -93021,7 +92956,6 @@ asa
 arvayo
 artmann
 artice
-art
 arslan
 arrott
 arrojo
@@ -95128,7 +95062,6 @@ reye
 rexwinkle
 revord
 reven
-reveal
 reutlinger
 reuland
 reuer
@@ -97752,7 +97685,6 @@ heathershaw
 hearson
 heally
 healan
-heads
 hazleton
 hazarika
 hayhoe
@@ -99571,7 +99503,6 @@ buhmann
 buhman
 bugna
 buglisi
-buggy
 buemi
 budke
 buder
@@ -99730,7 +99661,6 @@ boursaw
 bourret
 bourgoyne
 bounleut
-bound
 bouma
 bouleris
 bouler
@@ -100737,7 +100667,6 @@ wittenbrink
 wittbrodt
 witkowsky
 wisnowski
-wisely
 wirtzfeld
 wirfs
 wipfli
@@ -103409,7 +103338,6 @@ pickren
 pickings
 picht
 picco
-pi
 phomphithak
 phommatheth
 phlieger
@@ -106230,7 +106158,6 @@ hirleman
 hirao
 hippenstiel
 hintson
-hint
 hinley
 hinh
 hinebaugh
@@ -108043,7 +107970,6 @@ declerk
 decius
 dechavez
 dech
-december
 decarvalho
 decarmine
 decaire
@@ -110174,7 +110100,6 @@ yonek
 yokiel
 yokely
 yoders
-yo
 yngsdal
 ylonen
 yilma
@@ -112063,7 +111988,6 @@ stachurski
 stace
 stabs
 stabley
-stable
 srygley
 srinvasan
 squarciafico
@@ -112465,7 +112389,6 @@ shry
 shrigley
 shren
 shrawder
-showen
 shoulder
 shorthair
 shopbell
@@ -113465,7 +113388,6 @@ resos
 resetar
 resenz
 resecker
-res
 rerucha
 requarth
 reprogle
@@ -123271,7 +123193,6 @@ nelson
 guy
 clayton
 hugh
-max
 dwayne
 dwight
 armando
@@ -123721,7 +123642,6 @@ nestor
 hollis
 stefan
 donny
-art
 linwood
 beau
 weldon

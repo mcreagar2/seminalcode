@@ -7,15 +7,11 @@ class RemoveName:
         self.path_to_stopwords = path_to_stopwords
 
     def BeginRemoval(self):
-        df = pandas.read_csv(self.path_to_file)
+        df = pandas.read_excel(self.path_to_file)
         one_percent = df.shape[0]/100
         current_percent = one_percent
         percent_count = 1
-        text_columns = ["OpenHelpful", "OpenUnhelpful", "TechUse - Other (please specify): - Text", 
-        "TutoringSource - Tutoring center at [Field-Site] (please identify the center): - Text", "TutoringSource - Other (please explain) - Text", 
-        "What specific teaching strategies does your instructor use to promote equitable and inclusive student engagement?", 
-        "How (if at all) has your experience in this course differed from last term?", "Preparation - No (please explain) - Text", "NextCourse - Other (please explain) - Text", 
-        "IdentityFR", "AnythingElse"]
+        text_columns = ["OpenHelpful", "OpenUnhelpful", "TechUse - Other (please specify): - Text", "TutoringSource - Tutoring center at [Field-Site] (please identify the center): - Text", "TutoringSource - Other (please explain) - Text", "What specific teaching strategies does your instructor use to promote equitable and inclusive student engagement?", "How (if at all) has your experience in this course differed from last term?", "NextCourse - Other (please explain) - Text", "IdentityFR", "AnythingElse"]
         with open(self.path_to_stopwords) as fp: 
             stopwords = [stopword[:-1].lower() for stopword in fp]
         for column in text_columns: 
@@ -77,6 +73,9 @@ class RemoveName:
                         filehandle.write('%s\n' % listitem)
                 break
         df.to_csv("test.csv", index = False)
+        with open('newstopwords.txt', 'w') as filehandle:
+            for listitem in stopwords:
+                filehandle.write('%s\n' % listitem)
 
-test = RemoveName(r"C:\Users\mting\Desktop\Work\Seminal\data\spips\fall2019\combine\Fall2019SPIPsCombine.csv", r"C:\Users\mting\Desktop\Work\Seminal\seminalcode\SPIPS\Fall2019\stopwords.txt")
+test = RemoveName(r"C:\Users\mting\Desktop\Work\Seminal\data\spips\fall2019\clean\CSUEB_Clean_SPIPS_Fall2019.xlsx", r"C:\Users\mting\Desktop\Work\Seminal\seminalcode\SPIPS\Fall2019\stopwords.txt")
 test.BeginRemoval() 
