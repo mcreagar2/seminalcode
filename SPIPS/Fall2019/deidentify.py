@@ -8,16 +8,27 @@ class RemoveName:
 
     def BeginRemoval(self):
         df = pandas.read_excel(self.path_to_file)
-        one_percent = df.shape[0]/100
-        current_percent = one_percent
-        percent_count = 1
+        if df.shape[0] < 100: 
+            ten_percent = df.shape[0]/10
+            small = True
+            percent_count = 10
+            current_percent = ten_percent
+        else: 
+            one_percent = df.shape[0]/100
+            small = False
+            percent_count = 1
+            current_percent = one_percent
         text_columns = ["OpenHelpful", "OpenUnhelpful", "TechUse - Other (please specify): - Text", "TutoringSource - Tutoring center at [Field-Site] (please identify the center): - Text", "TutoringSource - Other (please explain) - Text", "What specific teaching strategies does your instructor use to promote equitable and inclusive student engagement?", "How (if at all) has your experience in this course differed from last term?", "NextCourse - Other (please explain) - Text", "IdentityFR", "AnythingElse"]
         with open(self.path_to_stopwords) as fp: 
             stopwords = [stopword[:-1].lower() for stopword in fp]
         for column in text_columns: 
             print("Checking " + column)
-            current_percent = one_percent
-            percent_count = 1
+            if small is False:
+                current_percent = one_percent
+                percent_count = 1
+            elif small is True:
+                current_percent = ten_percent
+                percent_count = 10 
             for row in range(0, df.shape[0]): 
                 free_response = str(df[column][row])
                 hit = False
@@ -60,10 +71,14 @@ class RemoveName:
                                 pass
                         if hit: 
                             break
-                if row > current_percent: 
+                if row > current_percent and small is False: 
                     print(str(percent_count)+"%")
                     current_percent = current_percent + one_percent
                     percent_count = percent_count + 1
+                elif row > current_percent and small is True: 
+                    print(str(percent_count)+"%")
+                    current_percent = current_percent + ten_percent
+                    percent_count = percent_count + 10
             print("Press 's' to save and quit or any key to continue")
             saving = input()
             if saving == 's': 
@@ -77,5 +92,5 @@ class RemoveName:
             for listitem in stopwords:
                 filehandle.write('%s\n' % listitem)
 
-test = RemoveName(r"C:\Users\mting\Desktop\Work\Seminal\data\spips\fall2019\clean\CSUEB_Clean_SPIPS_Fall2019.xlsx", r"C:\Users\mting\Desktop\Work\Seminal\seminalcode\SPIPS\Fall2019\stopwords.txt")
+test = RemoveName(r"C:\Users\mting\Desktop\Work\Seminal\data\spips\fall2019\text\CSUF_Text_SPIPS_Fall2019.xlsx", r"C:\Users\mting\Desktop\Work\Seminal\seminalcode\SPIPS\Fall2019\stopwords.txt")
 test.BeginRemoval() 
